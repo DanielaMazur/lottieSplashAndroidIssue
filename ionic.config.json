@@ -1,5 +1,12 @@
 {
-  "name": "lottieSplashAndroidIssue",
-  "integrations": {},
-  "type": "angular"
+  "defaultProject": "app",
+  "projects": {
+    "app": {
+      "name": "lottieSplashAndroidIssue",
+      "type": "angular",
+      "integrations": {
+        "cordova": {}
+      }
+    }
+  }
 }
